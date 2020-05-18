@@ -1,0 +1,28 @@
+		Busy	Op		Vj		Vk		Qj		Qk
+Ars1	No		    	0       0           	    
+Ars2	Yes		SUB 	36      -50065      	    
+Ars3	Yes		SUB 	12      1           	    
+Ars4	Yes		ADD 	36      -50065      	    
+Ars5	No		    	0       0           	    
+Ars6	No		    	0       0           	    
+Mrs1	Yes		DIV 	-50065  -6          	    
+Mrs2	Yes		DIV 	0       -6      Ars4	    
+Mrs3	Yes		MULT	-6      -6          	    
+
+		Busy	Addr
+LB1 	Yes		ffffff30    
+LB2 	Yes		1           
+LB3 	No		0           
+
+		R0		R1		R2		R3		R4		R5		R6		R7		R8		R9		R10		R11		R12		R13		R14		R15		R16		R17		R18		R19		R20		R21		R22		R23		R24		R25		R26		R27		R28		R29		R30		R31		
+value	0		12		-50065		-6		36		0		0		0		0		0		0		0		0		0		0		0		0		0		1		0		0		0		0		0		0		0		0		0		0		0		0		0		
+state	    	Ars3	Ars4	    	Mrs3	LB1 	    	    	    	    	    	    	    	    	    	    	    	    	LB2 	    	    	    	    	    	    	    	    	    	    	    	    	    	
+
+		Op		Cycle
+Add1	SUB 	0
+Add2	SUB 	0
+Add3	ADD 	0
+Mult1	DIV 	1
+Mult2	MULT	2
+Load1	LD  	2
+Load2	LD  	3
